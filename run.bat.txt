@@ -1,0 +1,7 @@
+@echo off
+chcp 65001 > nul
+echo ========================================================
+echo   กำลังเปิดระบบวิเคราะห์ข้อมูล SmartRetail Thailand...
+echo ========================================================
+python -m streamlit run app.py
+pause
